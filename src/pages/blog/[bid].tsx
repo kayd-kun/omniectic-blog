@@ -1,7 +1,7 @@
 import { GetStaticProps } from "next";
 import { getAllBlogIDs, getBlogData } from "../../lib/posts";
 
-export async function getStaticPaths() {
+export function getStaticPaths() {
     const paths = getAllBlogIDs();
 
     return {

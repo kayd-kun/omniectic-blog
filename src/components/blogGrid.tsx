@@ -1,3 +1,4 @@
+import Image from "next/image";
 import Link from "next/link";
 
 export default function BlogGrid() {
@@ -7,7 +8,7 @@ export default function BlogGrid() {
                 <h1 className="text-3xl font-semibold text-gray-800 capitalize lg:text-4xl dark:text-white">Page Title</h1>
                 <div className="grid grid-rows-1 gap-8 mt-8 md:mt-16">
                     <div className="lg:flex">
-                        <img className="object-cover w-full h-56 rounded-lg lg:w-64" src="https://images.unsplash.com/photo-1515378960530-7c0da6231fb1?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80" alt="" />
+                        <Image className="object-cover w-full h-56 rounded-lg lg:w-64" src="https://images.unsplash.com/photo-1515378960530-7c0da6231fb1?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80" alt="" />
                         <div className="flex flex-col justify-start gap-2 py-6 lg:mx-6">
                             <Link href="#" className="text-2xl font-semibold text-gray-800 hover:underline dark:text-white ">
                                 How to use sticky note for problem solving
@@ -20,7 +21,7 @@ export default function BlogGrid() {
                     </div>
 
                     <div className="lg:flex">
-                        <img className="object-cover w-full h-56 rounded-lg lg:w-64" src="https://images.unsplash.com/photo-1515378960530-7c0da6231fb1?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80" alt="" />
+                        <Image className="object-cover w-full h-56 rounded-lg lg:w-64" src="https://images.unsplash.com/photo-1515378960530-7c0da6231fb1?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80" alt="" />
                         <div className="flex flex-col justify-start gap-2 py-6 lg:mx-6">
                             <Link href="#" className="text-2xl font-semibold text-gray-800 hover:underline dark:text-white ">
                                 How to use sticky note for problem solving
@@ -33,7 +34,7 @@ export default function BlogGrid() {
                     </div>
 
                     <div className="lg:flex">
-                        <img className="object-cover w-full h-56 rounded-lg lg:w-64" src="https://images.unsplash.com/photo-1515378960530-7c0da6231fb1?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80" alt="" />
+                        <Image className="object-cover w-full h-56 rounded-lg lg:w-64" src="https://images.unsplash.com/photo-1515378960530-7c0da6231fb1?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80" alt="" />
                         <div className="flex flex-col justify-start gap-2 py-6 lg:mx-6">
                             <Link href="#" className="text-2xl font-semibold text-gray-800 hover:underline dark:text-white ">
                                 How to use sticky note for problem solving
@@ -46,7 +47,7 @@ export default function BlogGrid() {
                     </div>
 
                     <div className="lg:flex">
-                        <img className="object-cover w-full h-56 rounded-lg lg:w-64" src="https://images.unsplash.com/photo-1515378960530-7c0da6231fb1?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80" alt="" />
+                        <Image className="object-cover w-full h-56 rounded-lg lg:w-64" src="https://images.unsplash.com/photo-1515378960530-7c0da6231fb1?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80" alt="" />
                         <div className="flex flex-col justify-start gap-2 py-6 lg:mx-6">
                             <Link href="#" className="text-2xl font-semibold text-gray-800 hover:underline dark:text-white ">
                                 How to use sticky note for problem solving
@@ -59,7 +60,7 @@ export default function BlogGrid() {
                     </div>
 
                     <div className="lg:flex">
-                        <img className="object-cover w-full h-56 rounded-lg lg:w-64" src="https://images.unsplash.com/photo-1515378960530-7c0da6231fb1?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80" alt="" />
+                        <Image className="object-cover w-full h-56 rounded-lg lg:w-64" src="https://images.unsplash.com/photo-1515378960530-7c0da6231fb1?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80" alt="" />
                         <div className="flex flex-col justify-start gap-2 py-6 lg:mx-6">
                             <Link href="#" className="text-2xl font-semibold text-gray-800 hover:underline dark:text-white ">
                                 How to use sticky note for problem solving
@@ -72,7 +73,7 @@ export default function BlogGrid() {
                     </div>
 
                     <div className="lg:flex">
-                        <img className="object-cover w-full h-56 rounded-lg lg:w-64" src="https://images.unsplash.com/photo-1515378960530-7c0da6231fb1?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80" alt="" />
+                        <Image className="object-cover w-full h-56 rounded-lg lg:w-64" src="https://images.unsplash.com/photo-1515378960530-7c0da6231fb1?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80" alt="" />
                         <div className="flex flex-col justify-start gap-2 py-6 lg:mx-6">
                             <Link href="#" className="text-2xl font-semibold text-gray-800 hover:underline dark:text-white ">
                                 How to use sticky note for problem solving

@@ -35,11 +35,11 @@ export default function Home({ allBlogsData }: {
       </main>
     </>
   );
-};
+}
 
 // Create a getStaticProps function to fetch data from the lib folder using typescript
-export const getStaticProps: GetStaticProps = async () => {
-  const allBlogsData = await getSortedBlogsData();
+export const getStaticProps: GetStaticProps = () => {
+  const allBlogsData = getSortedBlogsData();
   
   // console.log(`Blogs: ${blogs}`);
   // for (const k in blogs) {

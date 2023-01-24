@@ -1,4 +1,5 @@
 import { GetStaticProps } from "next";
+import Image from "next/image";
 import Link from "next/link";
 import BlogGrid from "../components/blogGrid";
 import HeaderSection from "../components/header";
@@ -25,9 +26,9 @@ export default function BookReviews({allBlogsData} : {
                 </h1>
 
                 {sortedBRBlogs.map(({ id, date, title, tag }) => (
-                    <div className="grid grid-rows-1 gap-1 md:mt-6">
+                    <div key={id} className="grid grid-rows-1 gap-1 md:mt-6">
                         <div className="lg:flex">
-                            <img className="object-cover w-full h-56 rounded-lg lg:w-64" src="https://images.unsplash.com/photo-1515378960530-7c0da6231fb1?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80" alt="" />
+                            <Image className="object-cover w-full h-56 rounded-lg lg:w-64" src="https://images.unsplash.com/photo-1515378960530-7c0da6231fb1?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80" alt="" />
                             <div className="flex flex-col justify-start gap-2 py-6 lg:mx-6">
                                 <Link href={`/blog/${encodeURIComponent(id)}`} className="text-2xl font-semibold text-gray-800 hover:underline dark:text-white ">
                                     {title}
@@ -47,8 +48,8 @@ export default function BookReviews({allBlogsData} : {
     );
 }
 
-export const getStaticProps: GetStaticProps = async () => {
-    const allBlogsData = await getSortedBlogsData();
+export const getStaticProps: GetStaticProps = () => {
+    const allBlogsData = getSortedBlogsData();
     return {
         props: {
             allBlogsData

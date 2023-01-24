@@ -1,11 +1,11 @@
 import path from "path";
 import fs from 'fs';
 import matter from 'gray-matter';
-import reactMarkdown from "react-markdown";
+// import reactMarkdown from "react-markdown";
 
-import ReactDom from "react-dom";
+// import ReactDom from "react-dom";
 // import remarkGfm from 'remark-gfm'
-import { ReactMarkdown } from "react-markdown/lib/react-markdown";
+// import { ReactMarkdown } from "react-markdown/lib/react-markdown";
 import { remark } from "remark";
 import html from "remark-html";
 
@@ -77,7 +77,7 @@ export function getAllBlogIDs() {
     })
 }
 
-export async function getBlogData(id: String) {
+export async function getBlogData(id: string) {
 
     const fullpath = path.join(blogsDirectory, `${id}.md`);
     const fileContents = fs.readFileSync(fullpath, 'utf8');

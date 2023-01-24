@@ -1,5 +1,6 @@
+import Image from "next/image";
 import Footer from "./footer";
-import HeaderSection from "./header";
+// import HeaderSection from "./header";
 
 export default function BlogDetail() {
     return (
@@ -63,9 +64,9 @@ export default function BlogDetail() {
                     {/* /Subscribe*/}
                     {/*Author*/}
                     <div className="flex w-full items-center font-sans px-4 py-12">
-                        <img className="w-10 h-10 rounded-full mr-4" src="http://i.pravatar.cc/300" alt="Avatar of Author" />
+                        <Image className="w-10 h-10 rounded-full mr-4" src="http://i.pravatar.cc/300" alt="Avatar of Author" />
                         <div className="flex-1 px-2">
-                            <p className="text-base font-bold text-base md:text-xl leading-none mb-2">Jo Bloggerson</p>
+                            <p className="text-base font-bold md:text-xl leading-none mb-2">Jo Bloggerson</p>
                             <p className="text-gray-600 text-xs md:text-base">Minimal Blog Tailwind CSS template by <a className="text-green-500 no-underline hover:underline" href="https://www.tailwindtoolbox.com">TailwindToolbox.com</a></p>
                         </div>
                         <div className="justify-end">

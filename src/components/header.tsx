@@ -6,9 +6,9 @@ export default function HeaderSection() {
     return (
         <header className="flex items-center justify-between w-full max-w-7xl px-4 py-6 mx-auto bg-slate-500 mb-4">
             <div className="flex items-center">
-                <a href="/" className="text-2xl font-bold text-white">
+                <Link href="/" className="text-2xl font-bold text-white">
                     <span className="text-sky-400">Omni</span> Ectic
-                </a>
+                </Link>
             </div>
             <nav className="flex items-center space-x-4">
 
